@@ -11,8 +11,6 @@ $(function() {
     that.addClass('is-selected');
     tabsContent.removeClass('is-selected');
 
-    tabsContent
-    .filter((i, tab) => $(tab).data('id') === that.data('id'))
-    .addClass('is-selected');
+    tabsContent.filter((i, tab) => $(tab).data('id') === that.data('id')).addClass('is-selected');
   });
 });
