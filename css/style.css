@@ -136,7 +136,7 @@ nav .signin:hover, .btn:hover {
   width: 70%;
 }
 
-#features > nav a.is-selected {
+#features > nav a {
   border-bottom: 5px solid #e50914;
   color: white;
 }
@@ -150,10 +150,14 @@ nav .signin:hover, .btn:hover {
   padding: 40px 0;
 }
 
-#features > article > section.is-selected {
+#features > article > section {
   display: block;
 }
 
 #features img {
   max-width: 100%;
+}
+
+.inset {
+  padding: 80px;
 }

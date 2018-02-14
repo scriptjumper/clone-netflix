@@ -1,16 +1,9 @@
-$(function() {
-  var tabs = $('#features > nav a');
-  var tabsContent = $('#features > article > section');
+var app = angular.module('netflix', ["ngRoute"]);
 
-  tabs.click(function(e) {
-    e.preventDefault();
-
-    var that = $(this);
-
-    tabs.removeClass('is-selected');
-    that.addClass('is-selected');
-    tabsContent.removeClass('is-selected');
-
-    tabsContent.filter((i, tab) => $(tab).data('id') === that.data('id')).addClass('is-selected');
-  });
+app.config(function($routeProvider) {
+  $routeProvider
+    .when("/cancelanytime", {templateUrl: "js/core/views/cancelanytime.html"})
+    .when("/watchanywhere", {templateUrl: "js/core/views/watchanywhere.html"})
+    .when("/pickprice", {templateUrl: "js/core/views/pickprice.html"})
+    .otherwise({redirectTo: "/"})
 });
