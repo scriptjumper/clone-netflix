@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   margin: 0;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: white;
@@ -12,7 +13,7 @@ html, body {
 
 header {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.05)), url('../img/header-background.jpg');
-  height: 100vh;
+  height: 93vh;
 }
 
 nav img {
@@ -84,17 +85,18 @@ nav .signin {
   padding: 18px 20px;
 }
 
-nav .signin:hover, .btn:hover {
+nav .signin:hover,
+.btn:hover {
   background: #f40612;
 }
 
-#features > nav {
+#features>nav {
   padding-top: 35px;
   background-color: #141414;
   border-bottom: 2px solid #3d3d3d;
 }
 
-#features > nav a {
+#features>nav a {
   text-decoration: none;
   text-align: center;
   vertical-align: top;
@@ -104,11 +106,11 @@ nav .signin:hover, .btn:hover {
   line-height: 20px;
 }
 
-#features > nav a:hover {
+#features>nav a:hover {
   color: white;
 }
 
-#features > nav a img {
+#features>nav a img {
   margin: 10px 0 0;
   font-size: 1em;
 }
@@ -136,28 +138,24 @@ nav .signin:hover, .btn:hover {
   width: 70%;
 }
 
-#features > nav a {
+#features>nav a {
   border-bottom: 5px solid #e50914;
   color: white;
 }
 
-#features > article {
+#features>article {
   margin-bottom: 120px;
 }
 
-#features > article > section {
+#features>article>section {
   display: none;
   padding: 40px 0;
 }
 
-#features > article > section {
+#features>article>section {
   display: block;
 }
 
 #features img {
   max-width: 100%;
-}
-
-.inset {
-  padding: 80px;
 }
