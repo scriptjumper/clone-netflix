@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html ng-app="netflix">
+
 <head>
   <meta charset="utf-8">
   <title>Netflix Spain - Watch TV Shows Online, Watch Movies Online</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
   <header>
     <nav>
       <a class="logo" href="#">
         <img src="img/logo.png">
       </a>
-      <a class="signin" href="https://www.netflix.com/login">
-        Sign In
-      </a>
+
+      <a class="signin" href="https://www.netflix.com/login">Sign In</a>
     </nav>
+
     <section class="pitch">
-      <h1 class="pitch_title">See what's next</h1>
+      <h1 class="pitch_title">See what's next.</h1>
+
       <p class="pitch_subtitle">WATCH ANYWHERE. CANCEL ANYTIME.</p>
+      
       <button class="btn">JOIN FREE FOR A MONTH</button>
     </section>
   </header>
@@ -27,35 +31,26 @@
       <div class="center columns size-80">
         <a href="#/cancelanytime" class="column">
           <img src="http://placehold.it/300x50" alt="Cancel anytime">
-          <h2>
-            No commitments
-            <br>
-            Cancel online at anytime
+      
+          <h2>No commitments
+            <br> Cancel online at anytime
           </h2>
         </a>
+
         <a href="#/watchanywhere" class="column">
           <img src="http://placehold.it/300x50" alt="Watch anywhere">
-          <h2>
-            Watch anywhere
-          </h2>
+        
+          <h2>Watch anywhere</h2>
         </a>
+
         <a href="#/pickprice" class="column">
           <img src="http://placehold.it/300x50" alt="Pick your price">
-          <h2>
-            Pick your price
-          </h2>
+        
+          <h2>Pick your price</h2>
         </a>
       </div>
-
-      <article ng-view></article>
     </nav>
   </div>
-
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="js/libs/jquery/jquery.min.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="js/libs/angular/angular.min.js"></script>
-  <script src="js/libs/angular/angular-route.min.js"></script>
-  <script src="js/app.js"></script>
 </body>
+
 </html>
