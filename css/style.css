@@ -115,6 +115,11 @@ nav .signin:hover,
   font-size: 1em;
 }
 
+#features>nav a h2 {
+  margin: 10px 0 0;
+  font-size: 1em;
+}
+
 .columns {
   display: flex;
 }
@@ -132,30 +137,4 @@ nav .signin:hover,
 
 .size-80 {
   width: 80%;
-}
-
-.size-70 {
-  width: 70%;
-}
-
-#features>nav a {
-  border-bottom: 5px solid #e50914;
-  color: white;
-}
-
-#features>article {
-  margin-bottom: 120px;
-}
-
-#features>article>section {
-  display: none;
-  padding: 40px 0;
-}
-
-#features>article>section {
-  display: block;
-}
-
-#features img {
-  max-width: 100%;
 }
